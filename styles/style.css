@@ -1,0 +1,27 @@
+p {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+}
+
+h1,
+h2,
+h3 {
+    color:blue;
+}
+
+#foo {
+    color:rgb(0, 255, 55)
+}
+
+.editor-note {
+    color:brown;
+}
+
+p[class] {
+    color:aquamarine
+}
+
+.editor-note:hover {
+    color:rgb(231, 11, 184)
+}
