@@ -1,27 +1,35 @@
-p {
-    color: red;
-    width: 500px;
-    border: 1px solid black;
+html {
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    background-color: #CDCDCD;
 }
 
-h1,
-h2,
-h3 {
-    color:blue;
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 2px 2px 5px #1A237E;
 }
 
-#foo {
-    color:rgb(0, 255, 55)
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
 }
 
-.editor-note {
-    color:brown;
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #F9FBE7;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
 }
 
-p[class] {
-    color:aquamarine
-}
-
-.editor-note:hover {
-    color:rgb(231, 11, 184)
+img {
+    width: 750px;
+    display: blcok;
+    margin: 0 auto 
 }
